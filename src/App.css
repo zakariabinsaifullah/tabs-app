@@ -1,0 +1,39 @@
+.App {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 100px 30px;
+}
+
+.btn-wrapper {
+    width: 15%;
+    margin-right: 5%;
+}
+
+.single-tab {
+    width: 80%;
+}
+
+button {
+    display: block;
+    border: none;
+    background: none;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #a64f0d;
+    border-bottom: 1px solid #efefef;
+    margin-bottom: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button.active {
+    background: #a64f0d;
+    color: #fff;
+    border-bottom-color: #a64f0d
+}
